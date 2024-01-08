@@ -1,0 +1,182 @@
+fieldset {
+    background-color: #eee;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 19px 38px, rgba(0, 0, 0, 0.22) 0 15px 12px
+}
+
+legend {
+    background-color: gray;
+    color: #fff;
+    padding: 5px 10px
+}
+
+input {
+    margin: 5px
+}
+
+.font-weight-bold {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: larger
+}
+
+body {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    /* background: #632778; */
+    margin-top: 180px;
+    margin-bottom: 150px;
+    background-color: #bd10e0;
+    background-image: radial-gradient(at 47% 33%, hsl(272.71, 100%, 50%) 0, transparent 59%), radial-gradient(at 82% 65%, hsl(229.79, 38%, 50%) 0, transparent 55%)
+}
+
+legend {
+    font-size: 20px;
+    background-color: #632778;
+    color: #fff;
+    border-radius: 2px
+}
+
+.input-button-label {
+    font-size: 12px;
+    border-radius: 2px
+}
+
+.text {
+    font-size: 15px;
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+input[type=text] {
+    background-color: #fff
+}
+
+fieldset {
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: #f5ebff
+}
+
+ ::-webkit-scrollbar {
+    width: 8px
+}
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #888
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: #632778;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.profile-button:hover {
+    background: #682773
+}
+
+.profile-button:focus {
+    background: #682773;
+    box-shadow: none
+}
+
+.profile-button:active {
+    background: #682773;
+    box-shadow: none
+}
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
+
+.glass {
+    /* backdrop-filter: blur(0px) saturate(100%);
+    -webkit-backdrop-filter: blur(0px) saturate(100%); */
+    background-color: rgba(255, 255, 255, 0.62);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#pfpDiv {
+    height: max-content;
+    margin-top: 60px;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    margin-right: 30px;
+    margin-left: -30px;
+}
+
+#myRow {
+    margin-left: 50px;
+    font-family: 'Circular-Loom';
+}
+
+#delDiv {
+    margin-top: -40px;
+}
+
+#profileSettings {
+    padding-bottom: 30px;
+}
+
+.inp-file::-webkit-file-upload-button {
+    display: none;
+}
+
+.inp-file::before {
+    content: 'Choose File';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10pt;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.inp-file:hover::before {
+    border-color: black;
+}
+
+.inp-file:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
